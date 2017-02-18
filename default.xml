@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote
+		name="sigrok"
+		fetch="git://sigrok.org/"
+		/>
+    <default revision="master"
+		remote="sigrok"
+		/>
+	<project path="libsigrok" name="libsigrok"/>
+	<project path="libsigrokdecode" name="libsigrokdecode"/>
+	<project path="sigrok-cli" name="sigrok-cli"/>
+	<project path="pulseview" name="pulseview"/>
+	<project path="sigrok-firmware-fx2lafw" name="sigrok-firmware-fx2lafw"/>
+</manifest>
