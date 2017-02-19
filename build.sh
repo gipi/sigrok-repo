@@ -7,7 +7,7 @@ do
     (./autogen.sh && \
         ./configure; \
     if [ "$project" == "pulseview" ];then cmake . ;fi; \
-    make \
+    make && \
     sudo make install ) | sed "s/^/$project: /"
     cd -
 done
