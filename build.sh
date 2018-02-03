@@ -15,3 +15,5 @@ done
 udev_install() {
     sudo cp ./libsigrok/contrib/z60_libsigrok.rules /etc/udev/rules.d/
 }
+
+sudo ldconfig /usr/local/lib
